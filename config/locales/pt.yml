@@ -1,7 +1,7 @@
 # Brazilian strings go here for Rails i18n
 pt:
   issue_templates: Modelos de tarefas
-  issue_template: Modelo de tarefas
+  issue_template: Modelo de tarefa
   issue_template_note: notas
   label_enabled: Habilitado
   label_disabled: Desabilitado
@@ -41,3 +41,50 @@ pt:
   no_issue_templates_for_this_redmine: "Não há modelos de tarefa globais definidos neste redmine."
   only_admin_can_associate_global_template: "Somente administradores podem associar modelos globais a este projeto."
   text_no_tracker_enabled_for_global: "Nenhum tipo foi definido ainda.\nPor favor defina os tipos, pois os modelos são atribuídos a estes."
+  display_and_filter_issue_templates_in_dialog: "Visualizar conteúdo do template"
+  label_filter_template: "Filtrar modelos"
+  label_msg_confirm_to_replace: "Você quer substituir o assunto e a descrição?"
+  label_apply_global_template_to_all_projects: "Aplica modelos de problemas globais a todos os projetos."
+  note_apply_global_template_to_all_projects_setting_enabled: "Este modelo de problema global é aplicado a todos os projetos por configuração de plug-in."
+  project_list_associated_this_template: "Lista de projetos:  (aplicado: %{applied} of %{all})"
+  note_project_local_template_override_global_template: "Se existe um modelo local de projeto, substitua modelos globais e quaisquer modelos globais não são exibidos na tela criar tarefa."
+  help_project_local_template_override_global_template: "Se esta opção for ativada, todos os modelos de passagens globais serão aplicados a todos os projetos. Se um modelos específico do projeto por tipo tarefa estiver definido, ele se substituirá e o template global está oculto na tela de criação de nova tarefa."
+  warning_project_local_template_override_global_template: "Tenha cuidado ao registrar o template de tarefa global, que contém conteúdo confidencial para o qual deseja prestar atenção. Caso esta opção seja ativada, todos os modelos globais serão aplicados a todos os projetos."
+  revert_before_applying_template: "Reverter"
+  template_remove_confirm: "Tem certeza de remover esse template？ %{count} subprojetos usam este template."
+  label_number_of_subprojects_use_this_template: "%{count} subprojetos usam este template."
+  enabled_template_cannot_destroy: "Apenas o template desativado pode ser destruído. Verifique se outros subprojetos usam esse template ou não e desativá-lo antes de excluir."
+  orphaned_templates: "Modelos órfãos do tipo tarefa"
+  orphaned_template: "Modelos órfãos do tipo tarefa"
+  label_template_applied: "Template aplicado para tarefa. Você pode reverter clicando no link 'Reverter'."
+  label_hide_confirm_dialog_in_the_future: "Oculte esta confirmação no futuro, apenas substitua."
+  label_template_for_note: "Template para notas"
+  label_use_template_when_edit: "Usar templates quando editar tarefas"
+  note_template: "Template para notas"
+  no_note_templates_for_this_project: "Nenhum modelo de comentário foi definido para este projeto."
+  label_memo_help_message: "Crie uma nota explicando ao aplicar este modelo."
+  note_template_name: "Nome do template para a nota"
+  note_description: "Corpo do comentário"
+  field_template_visibility: Visibilidade dos templates
+  note_templates:
+    visibility:
+      mine: só para mim
+      roles: para estes papéis
+      open: para todos usuários
+  please_select_at_least_one_role: "Por favor, selecione ao menos um papel."
+  issue_templates_settings: Configuração do template da tarefa
+  issue_templates_optional_settings: Configurações adicionais do template
+  issue_template_related_link: Link relacionado
+  issue_template_link_title: Link relacionado ao título
+  label_related_link_help_message: "Se houver alguns exemplos de páginas ou exemplos de problemas que usam o modelo de problema, especifique o link. Assim, o operador pode vê-los como um uso ou exemplo de modelo."
+  label_link_title_help_message: "Você pode personalizar o título do link relacionado. (Padrão: Link Relacionado)"
+  enter_value: Por favor, informe um valor.
+  label_select_field: Selecione o campo
+  label_builtin_fields_help_message: Insira campos embutidos ou valores padrão de campos personalizados com formato JSON. Selecione os campos e defina os valores. Em seguida, clique em "Aplicar" e você pode gerar dados no formato JSON.
+  label_builtin_fields_json: JSON para campos
+  label_enable_builtin_fields: Habilitar suporte de campo interno
+  help_enable_builtin_fields: Se este sinalizador estiver ativado, um formulário será exibido que permite definir modelos para campos internos ou personalizados. Registre as configurações no formato JSON.
+  warning_enable_builtin_fields: Tenha cuidado para ativar este sinalizador. Agora, esse recurso é experimental. Como ainda não forneci interface do usuário e funções suficientes para oferecer suporte a todos os tipos de campo. Pode não funcionar dependendo do navegador. Tenha cuidado ao aplicar em um ambiente de produção.
+  unavailable_fields_for_this_tracker: Campo indisponível para este tipo de tarefa
+  global_note_templates: Modelo global para nota
+  link_to_index_edit_note_template: Lista de modelos de notas / modelos de edição
